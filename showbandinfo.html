@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script type="text/javascript">
+
+    function displayinformation(counter){
+      var  Title = document.getElementById('song[counter].title');
+      var  Artist = document.getElementById('song[counter].artist');
+      var  Album = document.getElementById('song[counter].album');
+      var  Year = document.getElementById('song[counter].year');
+
+    welcomeMsg.innerHTML = "Title:" + title + ", Artist:" + Artist + ", Album:" + Album + ", Year" + Year ". </br>"
+    }
+
+  </script>
+</head>
+
+<body>
+
+
+  Id = songs = [
+
+    {
+      title: "Getting Away with It (All Messed Up)",
+      artist: "James",
+      album: "Pleased to Meet You",
+      year: 2001,
+      img src= "https://upload.wikimedia.org/wikipedia/en/2/2a/JamesPleasedToMeetYou.jpg" onclick="displayinformation(1)"
+    },
+    {
+      title: "Renaissance Affair",
+      artist: "Hooverphonic",
+      album: "Blue Wonder Power Milk",
+      year: 1998,
+      art: "https://upload.wikimedia.org/wikipedia/en/1/17/Hooverphonic-Blue_Wonder_Power_Milk.jpg" onclick="displayinformation(2)"
+    },
+    {
+      title: "White Nights",
+      artist: "Oh Land",
+      album: "Oh Land",
+      year: 2011,
+      art: "https://upload.wikimedia.org/wikipedia/en/6/68/Oh_Land_%28album%29.png" onclick="displayinformation(3)"
+    }
+  ]
+
+  </body>
+</html>
